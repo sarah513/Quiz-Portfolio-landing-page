@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -42,9 +43,266 @@ header {
 
 #iam::after {
     content: "|";
-    animation-name: iam;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: iam;
+            animation-name: iam;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+
+}
+
+@-webkit-keyframes iam {
+    0% {
+        content: "L|";
+    }
+
+    1% {
+        content: "La|";
+    }
+
+    2% {
+        content: "Lar|";
+    }
+
+    3% {
+        content: "Larr|";
+    }
+
+    4% {
+        content: "Larry|";
+    }
+
+    5% {
+        content: "Larry |";
+    }
+
+    6% {
+        content: "Larry D|";
+    }
+
+    7% {
+        content: "Larry Da|";
+    }
+
+    8% {
+        content: "Larry Dan|";
+    }
+
+    9% {
+        content: "Larry Dani|";
+    }
+
+    10% {
+        content: "Larry Danie|";
+    }
+
+    11% {
+        content: "Larry Daniel|";
+    }
+
+    12% {
+        content: "Larry Daniels|";
+    }
+
+    13% {
+        content: "Larry Daniel|";
+    }
+
+    15% {
+        content: "Larry Danie|";
+    }
+
+    17% {
+        content: "Larry Dani|";
+    }
+
+    19% {
+        content: "Larry Dan|";
+    }
+
+    20% {
+        content: "Larry Da|";
+    }
+
+    21% {
+        content: "Larry D|";
+    }
+
+    23% {
+        content: "Larry |";
+    }
+
+    25% {
+        content: "Larry|";
+    }
+
+    27% {
+        content: "Larr|";
+    }
+
+    29% {
+        content: "Lar|";
+    }
+
+    31% {
+        content: "La|";
+    }
+
+    33% {
+        content: "L|";
+    }
+
+    35% {
+        content: "|";
+    }
+
+    36% {
+        content: "D|";
+    }
+
+    37% {
+        content: "De|";
+    }
+
+    38% {
+        content: "Dev|";
+    }
+
+    39% {
+        content: "Deve|";
+    }
+
+    40% {
+        content: "Devel|";
+    }
+
+    41% {
+        content: "Develo|";
+    }
+
+    42% {
+        content: "Develop|";
+    }
+
+    43% {
+        content: "Develope|";
+    }
+
+    44% {
+        content: "Developer|";
+    }
+
+    46% {
+        content: "Develope|";
+    }
+
+    48% {
+        content: "Develop|";
+    }
+
+    50% {
+        content: "Develo|";
+    }
+
+    52% {
+        content: "Devel|";
+    }
+
+    54% {
+        content: "Deve|";
+    }
+
+    56% {
+        content: "Dev|";
+    }
+
+    58% {
+        content: "De|";
+    }
+
+    60% {
+        content: "D|";
+    }
+
+    62% {
+        content: "|";
+    }
+
+    64% {
+        content: "D|";
+    }
+
+    66% {
+        content: "De|";
+    }
+
+    68% {
+        content: "Des|";
+    }
+
+    70% {
+        content: "Desi|";
+    }
+
+    72% {
+        content: "Desig|";
+    }
+
+    74% {
+        content: "Design|";
+    }
+
+    76% {
+        content: "Designe|";
+    }
+
+    78% {
+        content: "Designer|";
+    }
+
+    80% {
+        content: "Designer |";
+    }
+
+    82% {
+        content: "Designer|";
+    }
+
+    84% {
+        content: "Designe|";
+    }
+
+    86% {
+        content: "Design|";
+    }
+
+    88% {
+        content: "Desig|";
+    }
+
+    90% {
+        content: "Desi|";
+    }
+
+    92% {
+        content: "Des|";
+    }
+
+    94% {
+        content: "De|";
+    }
+
+    96% {
+        content: "D|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+
+
 
 }
 
@@ -312,6 +570,8 @@ header {
 
 /*-------- about us section-------*/
 .about {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 
@@ -325,8 +585,11 @@ header {
 
 
 .progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 20px;
     background-color: black;
 }
@@ -345,6 +608,8 @@ header {
     background-color: black;
     border: 1px white solid;
     color: white;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
 }
 
@@ -357,6 +622,10 @@ header {
 .btn2 {
     background-color: white;
     border: 1px black solid;
+    
+    -webkit-transition: 300ms;
+    
+    -o-transition: 300ms;
     
     transition: 300ms;
 }
@@ -384,6 +653,8 @@ header {
 
 /* services  */
 .head {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -418,6 +689,8 @@ header {
 
 .single-service div,
 .single-service div i {
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 
@@ -446,6 +719,8 @@ header {
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
     border-bottom: 3px black solid;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
 }
 
@@ -462,22 +737,34 @@ header {
     width: calc(100% - 20px);
     height: calc(100% - 20px);
     background-color: rgba(255, 255, 255, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     opacity: 0%;
 }
 
 .cover,
 #port-p {
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 
 .port-pic {
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 
 .port-pic:hover .cover {
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
     opacity: 100%;
 
@@ -488,19 +775,29 @@ header {
 }
 
 .cover div {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
 .port-icon div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 30px;
     height: 30px;
     border-radius: 50%;
     background-color: black;
     color: white;
     margin: 0px 2px;
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 
 }
@@ -548,11 +845,15 @@ header {
 
 .blog-img img {
     width: 100%;
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 
 .blog-img:hover img {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 .blog-carosel {
@@ -566,9 +867,13 @@ header {
     height: 60px;
     background-color: #eeeeee;
     border-radius: 50%;
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 .contact-icon i{
+    -webkit-transition: 700ms;
+    -o-transition: 700ms;
     transition: 700ms;
 }
 
@@ -594,6 +899,8 @@ form button{
     border-radius: 5px;
     color:white;
     font-size: 12px;
+    -webkit-transition: 300ms;
+    -o-transition: 300ms;
     transition: 300ms;
 }
 form button:hover{
@@ -606,6 +913,8 @@ footer{
 }
 .foot-text{
     color: #748182;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     font-size: 14px;
 
@@ -626,6 +935,8 @@ footer{
     }
 
     .navbar-nav {
+        width: -webkit-fit-content !important;
+        width: -moz-fit-content !important;
         width: fit-content !important;
         margin: auto !important;
     }
@@ -634,12 +945,16 @@ footer{
 
 @media screen and (max-width:578px) {
     .fit-smaller {
-        flex: 0 0 auto;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
         width: 100%;
     }
 
     .col-xs-11 {
-        flex: 0 0 auto;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
         width: 90%;
     }
 
