@@ -923,6 +923,7 @@ footer{
 .d-xs-none {
     display: none;
 }
+
 @media screen and (max-width:992px) {
     .navbar-collapse {
         background-color: white;
