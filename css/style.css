@@ -705,7 +705,7 @@ header {
 }
 
 .serv-font {
-    font-size: 14px;
+    
     color: #748182;
 }
 
@@ -727,7 +727,6 @@ header {
 .nav-tabs .nav-link {
     color: black;
     font-weight: 700;
-    font-size: 16px;
     border: none;
 }
 
@@ -898,7 +897,7 @@ form button{
     border: 1 #1c1c1c solid;
     border-radius: 5px;
     color:white;
-    font-size: 12px;
+    
     -webkit-transition: 300ms;
     -o-transition: 300ms;
     transition: 300ms;
@@ -916,8 +915,11 @@ footer{
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    font-size: 14px;
+    
 
+}
+.d-xs-block {
+    display: block;
 }
 
 @media screen and (max-width:992px) {
