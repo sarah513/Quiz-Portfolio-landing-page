@@ -962,7 +962,7 @@ footer{
 
     .container {
 
-        width: 95%;
+        width: 95% !important ;
     }
 
     .d-xs-none {
